@@ -2912,6 +2912,12 @@ input:hover,input:focus {
   z-index: 99;
 }
 
+@media (max-width: 500px) {
+  .logo img {
+    width: 80%;
+    height: auto;
+  }
+}
 .mobile_menu .slicknav_menu {
   background: transparent;
   margin-top: 0px !important;
@@ -2931,7 +2937,7 @@ input:hover,input:focus {
 
 .mobile_menu .slicknav_menu .slicknav_nav a:hover {
   background: transparent;
-  color: #ff2020;
+  color: #4CBADF;
 }
 
 .mobile_menu .slicknav_menu .slicknav_nav a {

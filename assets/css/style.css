@@ -28,6 +28,34 @@ span {
   font-family: "Josefin Sans",sans-serif;
 }
 
+#clockdiv {
+  font-family: "Josefin Sans", sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: normal;
+  text-align: center;
+  font-size: 30px;
+}
+
+#clockdiv > div {
+  padding: 8px;
+  border-radius: 3px;
+  background: #F3ADCD;
+  display: inline-block;
+}
+
+#clockdiv div > span {
+  padding: 12px;
+  border-radius: 3px;
+  background: #EC3D6C;
+  display: inline-block;
+}
+
+.smalltext {
+  padding-top: 5px;
+  font-size: 16px;
+}
+
 .img {
   max-width: 100%;
   -webkit-transition: all .3s ease-out 0s;
@@ -2719,7 +2747,7 @@ input:hover,input:focus {
 }
 
 .header-area .main-header .menu-wrapper .main-menu ul li:hover>a {
-  color: #ff2020;
+  color: #4CBADF;
 }
 
 .header-area .main-header .menu-wrapper .main-menu ul li.hot {
@@ -2890,11 +2918,11 @@ input:hover,input:focus {
 }
 
 .mobile_menu .slicknav_menu .slicknav_btn {
-  top: -25px;
+  top: -50px;
 }
 
 .mobile_menu .slicknav_menu .slicknav_btn .slicknav_icon-bar {
-  background-color: #ff2020 !important;
+  background-color: #4CBADF !important;
 }
 
 .mobile_menu .slicknav_menu .slicknav_nav {

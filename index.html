@@ -69,7 +69,26 @@
               <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8">
                 <div class="hero__caption text-white">
                   <h1 data-animation="fadeInLeft" data-delay=".4s" data-duration="2000ms">Next Shop Update</h1>
-                  <p class="text-white" data-animation="fadeInLeft" data-delay=".7s" data-duration="2000ms">COUNT DOWN: AUG8 4th 6:84:68pm</p>
+                  <p data-animation="fadeInLeft" data-delay=".7s" data-duration="2000ms">
+                    <div id="clockdiv">
+                      <div>
+                        <span class="days"></span>
+                        <div class="smalltext">Days</div>
+                      </div>
+                      <div>
+                        <span class="hours"></span>
+                        <div class="smalltext">Hours</div>
+                      </div>
+                      <div>
+                        <span class="minutes"></span>
+                        <div class="smalltext">Minutes</div>
+                      </div>
+                      <div>
+                        <span class="seconds"></span>
+                        <div class="smalltext">Seconds</div>
+                      </div>
+                    </div>
+                  </p>
                 </div>
               </div>
               <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4 d-none d-sm-block">
@@ -256,6 +275,9 @@
   <script src="./assets/js/jquery.validate.min.js"></script>
   <script src="./assets/js/mail-script.js"></script>
   <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+
+  <!-- countdown clock js -->
+  <script src="./assets/js/countdown.js"></script>
 
   <!-- Jquery Plugins, main Jquery -->
   <script src="./assets/js/plugins.js"></script>

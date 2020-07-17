@@ -1980,24 +1980,24 @@ input:focus::-moz-placeholder {
 }
 
 .padding-bottom {
-  padding-bottom: 250px;
+  padding-bottom: 10px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .padding-bottom {
-    padding-bottom: 250px;
+    padding-bottom: 10px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .padding-bottom {
-    padding-bottom: 150px;
+    padding-bottom: 10px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .padding-bottom {
-    padding-bottom: 40px;
+    padding-bottom: 10px;
   }
 }
 
@@ -3014,7 +3014,7 @@ input:hover,input:focus {
 }
 
 .slider-height {
-  min-height: 980px;
+  min-height: 480px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3022,7 +3022,7 @@ input:hover,input:focus {
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .slider-height {
-    min-height: 750px;
+    min-height: 450px;
   }
 }
 
@@ -3040,19 +3040,19 @@ input:hover,input:focus {
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .slider-height {
-    min-height: 400px;
+    min-height: 500px;
   }
 }
 
 @media (max-width: 575px) {
   .slider-height {
-    min-height: 430px;
+    min-height: 630px;
   }
 }
 
 .slider-height2 {
   background-image: url(../img/hero/about_hero.png);
-  min-height: 500px;
+  min-height: 300px;
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -3101,8 +3101,8 @@ input:hover,input:focus {
 
 @media (max-width: 575px) {
   .slider-area .hero__caption {
-    padding-top: 38px;
-    padding-left: 22px;
+    padding-top: 58px;
+    padding-left: 30px;
   }
 }
 
@@ -3157,7 +3157,7 @@ input:hover,input:focus {
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .slider-area .hero__caption p {
     padding-right: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 }
 
@@ -3165,7 +3165,7 @@ input:hover,input:focus {
   .slider-area .hero__caption p {
     margin-bottom: 30px;
     padding-right: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 }
 
